@@ -11,7 +11,7 @@ set_data = dict ( channels='channels.tsv',
 # link to download all experiment file
 base_url = 'https://openneuro.org/crn/datasets/ds002721/snapshots/1.0.1/files/sub-'
 
-myhost = os.name()[1]
+myhost = os.name()
 
 if myhost == 'rpb':
     base_folder = '/mnt/d/data_set/music_eeg/'
