@@ -19,6 +19,6 @@ if myhost == 'rpb':
 elif myhost == 'cisir2':
     base_folder = '/home/cisir2/Documents/rpb/music_eeg/'
 elif myhost=='sel':
-    base_folder = 'CHANGE TO WHERE YOU WANTED TO SAVE YOUR FILE'
+    base_folder = 'C:\Users\User\Documents\EEG Data'
 else:
-    raise ValueError ('please add new path for your new pc: CHANGE TO WHERE YOU WANTED TO SAVE YOUR FILE. The file is located at project_config')
+    raise Value ('C:\Users\User\Documents\EEG Data\New')
