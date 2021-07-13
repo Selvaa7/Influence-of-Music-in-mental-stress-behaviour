@@ -21,4 +21,4 @@ elif myhost == 'cisir2':
 elif myhost == 'nt':
     base_folder = r'C:\Users\User\Documents\EEG Data'
 else:
-    raise TypeError(r'C:\Users\User\Documents\EEG Data')
+    raise Exception(r'C:\Users\User\Documents\EEG Data')
